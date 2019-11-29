@@ -1,13 +1,10 @@
-package com.example.community.Model;
+package com.example.community.Dto;
 
+import com.example.community.Model.User;
 import lombok.Data;
 
-/**
- * @author create by Jaw
- * @2019/11/27 8:13
- */
 @Data
-public class Question {
+public class QuestionDTO {
     private Integer id;
     private String title;
     private String description;
@@ -18,4 +15,5 @@ public class Question {
     private Integer viewCount;
     private Integer commentCount;
     private Integer likeCount;
+    private User user;
 }

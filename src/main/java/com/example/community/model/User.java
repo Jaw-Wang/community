@@ -1,4 +1,4 @@
-package com.example.community.model;
+package com.example.community.Model;
 
 import lombok.Data;
 
